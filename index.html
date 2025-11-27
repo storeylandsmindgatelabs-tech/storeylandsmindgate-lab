@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Synth — Storeylands Mindgate Labs</title>
+  <meta name="description" content="Synth: voice-built worlds. AI + AR + VR. Speak a world into existence." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-wrap" aria-hidden="true">
+    <div class="bg-gradient"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <header>
+    <div class="nav-left">
+      <div class="logo-pill">
+        <img src="assets/logo_neon.png" alt="Synth logo" class="logo-img"/>
+        <div class="brand-text">
+          <div class="brand-main">SYNTH</div>
+          <div class="brand-sub">Storeylands Mindgate Labs</div>
+        </div>
+      </div>
+    </div>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#vision">Vision</a>
+      <a href="#join" class="cta-nav">Join Waitlist</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-left">
+        <h1>Speak your world into existence.</h1>
+        <p class="lead">Synth combines advanced AI, AR, and VR into a single voice-driven engine that builds realistic, scalable environments instantly. Create, share, and monetize worlds — no code required.</p>
+        <div class="btn-row">
+          <a class="btn-primary" href="#demo">Try the Demo</a>
+          <a class="btn-ghost" href="#features">Explore Features</a>
+        </div>
+        <div class="metrics" aria-hidden="true">
+          <div class="metric"><span>Voice → World</span><small>Instant scene building</small></div>
+          <div class="metric"><span>Creator Economy</span><small>Sell & share worlds</small></div>
+          <div class="metric"><span>Scale & Depth</span><small>Realistic environments</small></div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="holo-card" aria-hidden="true">
+          <div class="holo-glow"></div>
+          <img class="holo-img" src="assets/blueprint.png" alt="Synth hologram" />
+          <div class="ring r1"></div>
+          <div class="ring r2"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section how">
+      <div class="container">
+        <h2>How it works</h2>
+        <p class="section-lead">Voice → AI → Spatial context → Full VR. The Synth engine interprets voice intent, creates spatial logic, and populates worlds in real time.</p>
+        <div class="how-grid">
+          <div class="how-visual"><img src="assets/pipeline.png" alt="pipeline diagram"></div>
+          <div class="how-steps">
+            <div class="step"><strong>1.</strong> Speak a scene — describe vibe, scale, objects.</div>
+            <div class="step"><strong>2.</strong> AI interprets intent and builds geometry, lighting, and audio.</div>
+            <div class="step"><strong>3.</strong> AR/VR presentation with dynamic NPCs and collaboration tools.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section features">
+      <div class="container">
+        <h2>Core features</h2>
+        <div class="features-grid">
+          <div class="feature"><h4>Instant Voice-to-Scene</h4><p>Describe a space and Synth generates scale, depth, and spatial logic in real time.</p></div>
+          <div class="feature"><h4>Realistic Scale & Depth</h4><p>Environments that feel like real places — optimized for AR & VR immersion.</p></div>
+          <div class="feature"><h4>Creator Marketplace</h4><p>Publish, sell, and license worlds and assets. Creators earn while they build.</p></div>
+          <div class="feature"><h4>AI NPCs & Dynamic Logic</h4><p>Characters and world systems that respond, learn, and evolve with users.</p></div>
+          <div class="feature"><h4>Cross-Experience</h4><p>Seamless transition from mobile AR to full VR — same world, different hardware.</p></div>
+          <div class="feature"><h4>Collaboration Tools</h4><p>Co-build with teams in real time, or invite friends into your world.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="vision" class="section vision">
+      <div class="vision-bleed">
+        <img src="assets/universe_diagram.png" alt="Vision backdrop" class="vision-bg" />
+        <div class="vision-content">
+          <h2>The Architecture of Reality</h2>
+          <p class="section-lead">A single voice becomes information. Information structures matter. Matter expresses consciousness. Consciousness shapes the universe. Synth is built on this framework.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="culture" class="section culture">
+      <div class="container">
+        <h2>Brand & Culture</h2>
+        <div class="culture-grid">
+          <div class="culture-item"><img src="assets/portal_logo.png" alt="creative logo"/><p>Creative worlds & playful design.</p></div>
+          <div class="culture-item"><img src="assets/wordmark.png" alt="wordmark"/><p>Professional identity and IP.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="join" class="section join">
+      <div class="container card">
+        <h3>Join the Synth early wave</h3>
+        <p>Get invited to test the instant scene builder, collaborate on early worlds, or invest in the platform.</p>
+        <form onsubmit="event.preventDefault(); alert('Thanks — we will contact you! (This is a demo)')">
+          <input placeholder="Your name" required name="name" />
+          <input placeholder="Email address" required name="email" />
+          <button class="btn-primary" type="submit">Join</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand"><img src="assets/wordmark.png" alt="wordmark" /></div>
+      <div class="patent">Provisional patent draft: <a href="assets/MindGates_Storeylands_Patent_Draft_Travis_H_Storey.pdf" target="_blank">MindGates_Storeylands_Patent_Draft_Travis_H_Storey.pdf</a></div>
+      <div class="copyright">© 2025 Storeylands Mindgate Labs — All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
