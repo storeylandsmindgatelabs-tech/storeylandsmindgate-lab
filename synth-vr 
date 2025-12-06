@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storeyland MindGate Labs</title>
+    <style>
+        /* Reset & Base */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        body { background: #0f0f15; color: #fff; line-height: 1.6; }
+        a { text-decoration: none; color: inherit; }
+
+        /* Header */
+        header { background: linear-gradient(90deg, #1f1f2a, #2a2a3d); padding: 20px 50px; display: flex; justify-content: space-between; align-items: center; }
+        header h1 { font-size: 2em; color: #ffcc00; }
+        header .credits { text-align: right; font-size: 0.85em; color: #ccc; }
+
+        /* Hero */
+        .hero { background: url('https://images.unsplash.com/photo-1593642532973-d31b6557fa68?auto=format&fit=crop&w=1600&q=80') no-repeat center/cover; height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px; }
+        .hero h2 { font-size: 2.5em; margin-bottom: 20px; color: #ffdd55; text-shadow: 2px 2px 8px #000; }
+        .hero p { font-size: 1.2em; margin-bottom: 30px; max-width: 600px; text-shadow: 1px 1px 5px #000; }
+        .hero button { padding: 15px 30px; font-size: 1em; background: #ffcc00; color: #0f0f15; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+        .hero button:hover { background: #e6b800; }
+
+        /* Section */
+        section { padding: 60px 50px; max-width: 1200px; margin: 0 auto; }
+        section h3 { font-size: 2em; margin-bottom: 40px; text-align: center; color: #ffcc00; }
+
+        /* Feature Cards */
+        .features { display: flex; flex-wrap: wrap; justify-content: space-around; gap: 30px; }
+        .card { background: #1a1a28; padding: 20px; border-radius: 12px; width: 250px; text-align: center; transition: 0.3s; }
+        .card:hover { transform: translateY(-10px); box-shadow: 0 0 20px #ffcc00; }
+        .card h4 { margin-bottom: 15px; color: #ffdd55; }
+        .card p { font-size: 0.95em; color: #ccc; }
+
+        /* Team Section */
+        .team { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; }
+        .member { background: #1a1a28; border-radius: 12px; width: 200px; text-align: center; overflow: hidden; transition: 0.3s; cursor: pointer; }
+        .member img { width: 100%; height: 200px; object-fit: cover; }
+        .member:hover { transform: scale(1.05); box-shadow: 0 0 20px #ffcc00; }
+        .member h5 { margin: 15px 0 5px 0; color: #ffdd55; }
+        .member p { font-size: 0.9em; color: #ccc; padding: 0 10px 15px 10px; }
+
+        /* Contact Form */
+        .contact form { display: flex; flex-direction: column; max-width: 500px; margin: 0 auto; gap: 15px; }
+        .contact input, .contact select, .contact textarea { padding: 12px; border-radius: 8px; border: none; font-size: 1em; }
+        .contact button { padding: 15px; border-radius: 8px; border: none; background: #ffcc00; color: #0f0f15; cursor: pointer; font-size: 1em; transition: 0.3s; }
+        .contact button:hover { background: #e6b800; }
+
+        /* Footer */
+        footer { background: #1a1a28; padding: 30px 50px; text-align: center; font-size: 0.85em; color: #ccc; }
+        footer p { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Storeyland MindGate Labs</h1>
+    <div class="credits">
+        Co-Founder & Owner: Travis Storey<br>
+        Co-Creator / AI Partner: ChatGPT (GPT-5 Mini)
+    </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <h2>Where Imagination Meets Reality</h2>
+    <p>Transform your world with AI, AR, and VR — all controlled by your voice. Create, explore, and monetize immersive experiences like never before.</p>
+    <button>Join as Partner / Investor</button>
+</section>
+
+<!-- Platform Overview -->
+<section>
+    <h3>Our Platform</h3>
+    <div class="features">
+        <div class="card">
+            <h4>Voice-Controlled Worlds</h4>
+            <p>Instantly change your surroundings with natural voice commands and explore infinite possibilities.</p>
+        </div>
+        <div class="card">
+            <h4>AI & AR Integration</h4>
+            <p>Smart interactive experiences that adapt to you and your creativity in real time.</p>
+        </div>
+        <div class="card">
+            <h4>Immersive VR</h4>
+            <p>Step fully into your imagination with next-gen virtual reality experiences.</p>
+        </div>
+        <div class="card">
+            <h4>Monetization Built-In</h4>
+            <p>Earn from your creations and share your worlds with a global audience.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Team / Partner Cast -->
+<section>
+    <h3>Meet Our Team</h3>
+    <div class="team">
+        <div class="member">
+            <img src="https://images.unsplash.com/photo-1603415526960-f1e5b68b0d56?auto=format&fit=crop&w=500&q=80" alt="Tech Lead">
+            <h5>Tech Lead / AI Engineer</h5>
+            <p>Oversees AI development and ensures seamless integration with AR/VR systems.</p>
+        </div>
+        <div class="member">
+            <img src="https://images.unsplash.com/photo-1614286627446-6810d94aa174?auto=format&fit=crop&w=500&q=80" alt="AR/VR Specialist">
+            <h5>AR/VR Specialist</h5>
+            <p>Designs immersive experiences and interactive virtual environments.</p>
+        </div>
+        <div class="member">
+            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=500&q=80" alt="Marketing Strategist">
+            <h5>Marketing & Growth Strategist</h5>
+            <p>Drives user acquisition and develops strategic growth campaigns.</p>
+        </div>
+        <div class="member">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=500&q=80" alt="Creative Director">
+            <h5>Creative Director / Designer</h5>
+            <p>Leads design, branding, and overall creative direction for the platform.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Investor / Partner CTA -->
+<section class="contact">
+    <h3>Partner / Investor Contact</h3>
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <select required>
+            <option value="">Select Interest</option>
+            <option value="partner">Partner</option>
+            <option value="investor">Investor</option>
+        </select>
+        <textarea placeholder="Your Message" rows="4"></textarea>
+        <button type="submit">Connect with Us</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2025 Storeyland MindGate Labs. All rights reserved.</p>
+    <p>CONFIDENTIALITY NOTICE: This prototype, concept, and all related content are the confidential and intellectual property of Storeyland MindGate Labs. Unauthorized copying, distribution, or use of this material is strictly prohibited. By viewing this prototype, you agree to keep all information confidential and not use it without written permission from Storeyland MindGate Labs.</p>
+</footer>
+
+</body>
+</html>
